@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+ width: 100%;
+ background-color: #e9d6cd;
+ background-position: center;
+ background-size: cover;
+ height: 140vh;
+
+}
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial, ;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 27px;
+    font-size: 21px;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: Arial, ;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: black;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: orange;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    float: right;
+    border-bottom-right-radius: 5px;
+    
+}
+.btn.focus{
+    outline: none;
+}
+.srch.focus{
+    outline: none;
+
+}
+.dire h1{
+    background-color: rgb(186, 177, 177);
+    margin-left: 0px;
+}
+.dire{
+    margin-left: 50px;
+}
+.user h1{
+    background-color: rgb(186, 177, 177);
+    margin-left: 50px;
+}
+
+.user1{
+    margin-left: 50px;
+    background-color: orange;
+}
+.user2{
+    margin-left: 50px;
+    background-color: orange;
+}
+.user3{
+    margin-left: 50px;
+    background-color: orange;
+}
+.links{
+    margin-left: 50px;
+}
+.links h1{
+    background-color: rgb(186, 177, 177);
+}
+.links a{
+    color: orange;
+}
